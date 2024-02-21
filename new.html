@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Page</title>
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Wiki</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="articleindecies.html">Index</a></li>
+          <li><a href="new.html">New Page</a></li>
+          <li><a href="edit.html">Edit Page</a></li>
+          <li><a href="random.html">Random Page</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>New Page</h2>
+      <form action="new.php" method="post">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required />
+        <label for="content">Content:</label>
+        <textarea id="content" name="content" required></textarea>
+        <button type="submit">Create Page</button>
+      </form>
+    </main>
+  </body>
+</html>
