@@ -1,3 +1,6 @@
+* {
+  font-family: Roboto, sans-serif;
+}
 body {
   font-family: "Arial", sans-serif;
   margin: 0;
@@ -41,4 +44,84 @@ main {
 footer {
   text-align: center;
   margin-top: 20px;
+}
+.new-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+input[name="title"] {
+  border: 2px solid #007bff;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  outline: none;
+  box-shadow: none;
+  transition: border-color 0.3s ease-in-out;
+  margin-bottom: 30px;
+}
+
+input[name="title"]:focus {
+  border-color: #ff0000;
+}
+textarea[name="content"] {
+  border: 2px solid #007bff;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  outline: none;
+  box-shadow: none;
+  transition: border-color 0.3s ease-in-out;
+  margin-bottom: 30px;
+}
+
+textarea[name="content"]:focus {
+  border-color: #ff0000;
+}
+
+ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: rgb(255, 0, 0);
+}
+.standard-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.searchInput {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+  font-size: 16px;
 }

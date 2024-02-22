@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wiki</title>
     <link rel="stylesheet" href="/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet" />
   </head>
   <body>
     <main>
@@ -15,17 +20,23 @@
       </p>
       <div class="searchArea">
         <form action="search.php" method="get">
-          <input type="text" id="query" name="query" required />
-          <button type="submit">Search</button>
+          <input
+            type="text"
+            id="query"
+            name="query"
+            class="searchInput"
+            placeholder="Search..."
+            required />
+          <button type="submit" class="search-button">Search</button>
         </form>
       </div>
       <header>
         <nav>
           <ul>
-            <li><a href="articleindecies.html">Index</a></li>
+            <li><a href="indices.html">Index</a></li>
 
             <li><a href="new.html">New Page</a></li>
-            <li><a href="edit.html">Edit Page</a></li>
+
             <li><a href="random.html">Random Page</a></li>
           </ul>
         </nav>
