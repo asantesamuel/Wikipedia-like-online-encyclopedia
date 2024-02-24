@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wiki</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Wiki</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="indices.html">Index</a></li>
+
+            <li><a href="entries/Django.html">Random Page</a></li>
+          </ul>
+        </nav>
+      </header>
+      <form method="post" class="new-page-container">
+        <input type="text" name="title" placeholder="Title" />
+        <textarea
+          name="content"
+          rows="10"
+          cols="50"
+          placeholder="Content"></textarea>
+
+        <button type="submit" class="standard-button">Edit</button>
+      </form>
+
+        <h1 id="indices_head">Article Indices</h1>
+        <div id="indices_div">
+          <ul id="indices">
+            <li><a href="#">CSS </a></li>
+            <li><a href="#">Django</a></li>
+            <li><a href="#">Git</a></li>
+            <li><a href="#">Ghana</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">Python</a></li>
+            <!-- Add more articles here -->
+          </ul>
+        </div>
+    
+        <footer class="footer" data-el-section="other projects">
+          <hr />
+          <p class="site-license">
+            <small class="jsl10n">
+              This page is available under the
+              <a href="#">
+              Web-Based-Concepts Group 1AO1 Copyright laws</a>
+              </small>
+            <small class="jsl10n"><a href="#">Terms of Use</a></small>
+            <small class="jsl10n"><a href="#">Privacy Policy</a></small>
+          </p>
+        </footer>
+    </main>
+  </body>
+</html>
